@@ -1,0 +1,223 @@
+section{
+    
+    background-color: white
+    
+}
+
+
+
+.hero{
+    background-color: purple;
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+}
+
+footer{
+    height: 500px;
+    background-color: black;
+}
+
+
+
+nav{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 600px;
+    justify-content: space-around;
+    font-size:30px;
+}
+
+ul.show {
+    display: block;
+}
+
+
+li {
+    
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 80px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+p {
+    margin: 0;
+    font-size: 30px;
+    font-weight:100;
+}
+
+.subtext{
+    font-size: 25px;
+    font-weight: 300px;
+}
+
+.hero-area {
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero-text {
+    margin-left: 80px;
+    margin-bottom: 200px;
+}
+
+.button{
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight:100;
+    padding-top: 5px;
+    margin-top: 20px;
+    color: purple;
+
+}
+
+.button:hover{
+    background-color: black;
+}
+
+.button:active{
+    background-color:black;
+    color: white;
+}
+
+.socials{
+    padding-bottom: 200px;
+}
+
+
+.logo{
+    height: 80px;
+    margin: 30px
+}
+
+/* use for later */
+
+
+.social{
+    margin: 20px;
+}
+
+.sub-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.sub-section-alternative{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    padding:80px;
+}
+
+
+.headshot-container{
+    display:flex;
+    align-items: center;
+
+}
+
+.headshot{
+    width: 250px;
+    border-radius: 200px;
+}
+
+.project-container{
+ display: flex;
+ justify-content: space-around;
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .project-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.project-card{
+    width:200px;
+    height:500px;
+    box-shadow: 5px 5px 20px black;
+    margin: 10px;
+}
+
+.project-image{
+    width: 100px;
+    margin-top: 25px;
+    border-radius: 125px;
+}
+
+hr{
+    margin-left:20px;
+    margin-right:20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact {
+    color:white;
+}
+
+.hamburger{
+    display: none;
+}
+
+.hamburger:focus{
+    outline: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+    .hamburger{
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+        margin: 20px;
+        align-self: flex-end;
+    }
+
+    ul{
+        display:none;
+        margin: 0px;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .logo{
+        display:none;
+    }
+}
+
+.contact-form{
+    display: flex;
+    border-radius: 5px;
+    padding: 20px;
+}
